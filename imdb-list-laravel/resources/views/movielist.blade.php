@@ -107,7 +107,7 @@
                         @endif
                     </div>
                     @if(isset($movie['description']))
-                        <p class="movie-description">{{ $movie['description'] }}</p>
+                    <p class="movie-description">{{ $movie['description'] }}</p>
                     @endif
                     @if(isset($movie['creator']))
                         <div class="movie-creator">
@@ -115,9 +115,9 @@
                         </div>
                     @endif
                     @if(isset($movie['stars']))
-                        <div class="movie-stars">
-                            <strong>Stars:</strong> {{ $movie['stars'] }}
-                        </div>
+                    <div class="movie-stars">
+                        <strong>Stars:</strong> {{ $movie['stars'] }}
+                    </div>
                     @endif
                 </div>
             </div>
